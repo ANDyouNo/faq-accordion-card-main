@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="illustration">
+        <div class="illustration__woman"></div>
+        <div class="illustration__box"></div>
+      </div>
+      <div class="info-block">
+        <h1 class="info-block__header">FAQ</h1>
+        <div class="menu">
+          <li class="menu__item" id="mn1">
+            <a class="menu__item-btn" href="#mn1">How many team members can I invite?
+              <span class="arrow">
+                <img src="./images/icon-arrow-down.svg" alt="">
+              </span>
+            </a>
+            <div class="submenu closed">
+                <a href="#">You can invite up to 2 additional users on the Free plan. There is no limit on 
+                  team members for the Premium plan.</a>
+            </div>
+          </li>
+          <span class="devider"></span>
+          <li class="menu__item" id="mn2">
+            <a class="menu__item-btn opened" href="#mn2">What is the maximum file upload size?
+              <span class="arrow arrow-opened">
+                <img src="./images/icon-arrow-down.svg" alt="">
+              </span>
+            </a>
+            <div class="submenu">
+                <a href="#">No more than 2GB. All files in your account must fit your allotted storage space.</a>
+            </div>
+          </li>
+          <span class="devider"></span>
+          <li class="menu__item" id="mn3">
+            <a class="menu__item-btn" href="#mn3">How do I reset my password?
+              <span class="arrow">
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </span>
+            </a>
+            <div class="submenu closed">
+                <a href="#">Click “Forgot password” from the login page or “Change password” from your profile page.
+                  A reset link will be emailed to you.</a>
+            </div>
+          </li>
+          <span class="devider"></span>
+          <li class="menu__item" id="mn4">
+            <a class="menu__item-btn" href="#mn4">Can I cancel my subscription?
+              <span class="arrow">
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </span>
+            </a>
+            <div class="submenu closed">
+                <a href="#">Yes! Send us a message and we’ll process your request no questions asked.</a>
+            </div>
+          </li>
+          <span class="devider"></span>
+          <li class="menu__item" id="mn5">
+            <a class="menu__item-btn" href="#mn5">Do you provide additional support?
+              <span class="arrow">
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </span>
+            </a>
+            <div class="submenu closed">
+                <a href="#">Chat and email support is available 24/7. Phone lines are open during normal business hours.</a>
+            </div>
+          </li>
+          <span class="devider"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>

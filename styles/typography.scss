@@ -1,0 +1,29 @@
+//Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+@font-face {
+  font-family: kumbh-webfont;
+  src: url(/assets/fonts/kumbhsans-bold-webfont.woff) format("woff"),
+    url(/assets/fonts/kumbhsans-bold-webfont.woff2) format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: kumbh-webfont;
+  src: url(/assets/fonts/kumbhsans-regular-webfont.woff) format("woff"),
+    url(/assets/fonts/kumbhsans-regular-webfont.woff2) format("woff2");
+  font-weight: 400;
+}
+
+:root {
+  font-size: 13px;
+}
+body {
+  font-family: kumbh-webfont;
+}
+.info-block__header {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1248px) {
+  :root {
+    font-size: 12px;
+  }
+}
